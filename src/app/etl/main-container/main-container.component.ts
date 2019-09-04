@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class MainContainerComponent implements OnInit {
   public navLinks = [
     {path: 'home', label: 'Home'},
-    {path: 'control-center', label: 'Control Center'}
+    {path: 'control-center', label: 'Control Center'},
+    {path: 'list', label: 'Info'}
   ];
   constructor() { }
 

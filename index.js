@@ -89,7 +89,7 @@ app.get('/authCheck', (req, res) => {
     });
 });
 
-app.use(tokenMiddleware);
+// app.use(tokenMiddleware);
 
 app.get('/tokenizedRoute', (req, res) => {
     res.end('Successful');

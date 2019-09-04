@@ -1,0 +1,25 @@
+<div>
+    <form [formGroup]="filters">
+        <input type="text" formControlName="Company">
+        <input type="text" formControlName="Product">
+        <input type="text" formControlName="Sales">
+        <input type="text" formControlName="Date">
+    </form>
+    <table style="width: 100%;">
+        <thead style="width: 100%;">
+            <tr style="width: 100%; height: 50px;">
+                <th *ngFor="let col of columns" style="width: 23%;">{{col}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr
+                *ngFor="let row of (tableData | filterTable: search | paginate: {items: itemsPerPage, pageNum: activePage}) as data">
+                <td *ngFor="let col of columns" style="width: 23%;">{{row[col]}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <app-pagination [itemsPerPage]="itemsPerPage" (pageChange)="activePage=$event" (pageSizeChange)="itemsPerPage=$event"></app-pagination>
+    </div>
+</div>
+<!--  -->

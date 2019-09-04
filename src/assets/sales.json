@@ -1,0 +1,134 @@
+[
+    {
+        "Company": "HP",
+        "Product": "Mouse",
+        "Sales": 7000,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Dell",
+        "Product": "Keyboard",
+        "Sales": 800,
+        "Date": "2019-03-02"
+    },
+    {
+        "Company": "HP",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Dell",
+        "Product": "Keyboard",
+        "Sales": 700,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Lenovo",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-04"
+    },
+    {
+        "Company": "HP",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "HP",
+        "Product": "Keyboard",
+        "Sales": 700,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Dell",
+        "Product": "Keyboard",
+        "Sales": 800,
+        "Date": "2019-03-02"
+    },
+    {
+        "Company": "Lenovo",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Apple",
+        "Product": "Keyboard",
+        "Sales": 900,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Lenovo",
+        "Product": "Monitor",
+        "Sales": 50000,
+        "Date": "2019-03-04"
+    },
+    {
+        "Company": "HP",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "HP",
+        "Product": "Mouse",
+        "Sales": 7000,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Dell",
+        "Product": "Keyboard",
+        "Sales": 800,
+        "Date": "2019-03-02"
+    },
+    {
+        "Company": "HP",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Dell",
+        "Product": "Keyboard",
+        "Sales": 700,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Lenovo",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-04"
+    },
+    {
+        "Company": "HP",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "HP",
+        "Product": "Keyboard",
+        "Sales": 700,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Dell",
+        "Product": "Keyboard",
+        "Sales": 800,
+        "Date": "2019-03-02"
+    },
+    {
+        "Company": "Lenovo",
+        "Product": "Keyboard",
+        "Sales": 500,
+        "Date": "2019-03-01"
+    },
+    {
+        "Company": "Apple",
+        "Product": "Keyboard",
+        "Sales": 900,
+        "Date": "2019-03-01"
+    }
+]

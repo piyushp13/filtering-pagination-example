@@ -1,0 +1,14 @@
+<div fxLayout="row" fxLayoutAlign="space-between center">
+    <div>
+        <div style="cursor: pointer; width: 50px !important; height: 50px; border-right: 1px solid grey; float: left; display: flex; align-items: center; justify-content: center;"
+            *ngFor="let pageNum of pages" (click)="onPageChange(pageNum)"
+            [ngClass]="{'page-active': activePage === pageNum}">{{pageNum}}</div>
+    </div>
+    <div>
+        <mat-form-field>
+            <mat-select name="items" id="items" [(ngModel)]="itemsPerPage" (selectionChange)="onPageSizeChange()">
+                <mat-option *ngFor="let item of pageSizeOptions" [value]="item">{{item}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+</div>

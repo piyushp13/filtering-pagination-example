@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainContainerComponent } from './main-container/main-container.component';
 import { HomeComponent } from './home/home.component';
 import { ControlCenterComponent } from './control-center/control-center.component';
+import { ListComponent } from './list/list.component';
 
 const routes: Routes = [
     {path: '', component: MainContainerComponent, children: [
       {path: 'home', component: HomeComponent},
       {path: 'control-center', component: ControlCenterComponent },
+      {path: 'list', component: ListComponent },
       {path: '', redirectTo: 'home', pathMatch: 'full'}
     ]},
     {path: '**', redirectTo: ''}
