@@ -1,0 +1,13 @@
+<div fxLayout="column">
+    <form [formGroup]="userCredentials" (ngSubmit)="login(userCredentials.value)">
+        <div>
+            <input type="text" formControlName="user" title="Username" placeholder="Username">
+        </div>
+        <div>
+            <input type="text" formControlName="password" title="Password" placeholder="Password">
+        </div>
+         <div>
+            <button type="submit" [disabled]="!userCredentials.valid">Login</button>
+         </div>
+    </form>
+</div>

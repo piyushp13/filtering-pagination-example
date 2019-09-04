@@ -1,0 +1,18 @@
+<div fxLayout="column" style="height: 100%; width: 100%;">
+    <div fxFlex="7" fxLayout="row" fxLayoutAlign="space-between center">
+        <div fxFlex="30">
+
+        </div>
+        <div fxFlex="40" fxLayoutAlign="center center">
+            Header
+        </div>
+        <div fxFlex="30" fxLayout="row" fxLayoutAlign="end center">
+            <div *ngIf="authService.isLoggedIn">
+                <button mat-icon-button color="primary" (click)="logOut()" title="Log Out"><mat-icon>account_circle</mat-icon></button>
+            </div>
+        </div>
+    </div>
+    <div fxFlex="93">
+        <router-outlet></router-outlet>
+    </div>
+</div>
