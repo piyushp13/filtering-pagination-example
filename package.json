@@ -45,7 +45,7 @@
     "zone.js": "0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.803.2",
+    "@angular-devkit/build-angular": "15.0.4",
     "@angular/cli": "8.3.2",
     "@angular/compiler-cli": "8.2.4",
     "@angular/language-service": "8.2.4",
@@ -71,13 +71,13 @@
     "protractor": "5.4.2",
     "source-map-support": "0.5.13",
     "ssri": "6.0.1",
-    "ts-loader": "^6.0.4",
+    "ts-loader": "^9.4.2",
     "ts-mocha": "6.0.0",
     "ts-node": "8.3.0",
     "tslint": "5.19.0",
     "typescript": "3.5.3",
     "webpack-bundle-analyzer": "3.4.1",
-    "webpack-cli": "3.3.7",
+    "webpack-cli": "5.0.1",
     "webpack-node-externals": "1.7.2"
   }
 }
